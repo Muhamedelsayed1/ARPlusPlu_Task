@@ -1,4 +1,4 @@
-package com.example.arplusplu_task.ui.fragments
+package com.example.arplusplu_task.ui.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,10 +8,8 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.example.arplusplu_task.R
 import com.example.arplusplu_task.databinding.FragmentArticleBinding
-import com.example.arplusplu_task.databinding.FragmentBreakingNewsBinding
-import com.example.arplusplu_task.ui.MainActivity
-import com.example.arplusplu_task.ui.NewsViewModel
-import com.example.arplusplu_task.ui.adapter.NewsAdapter
+import com.example.arplusplu_task.ui.ui.MainActivity
+import com.example.arplusplu_task.ui.ui.NewsViewModel
 import com.google.android.material.snackbar.Snackbar
 
 class ArticleNewsFragment : Fragment(R.layout.fragment_article) {

@@ -5,8 +5,8 @@ import com.example.arplusplu_task.ui.models.Source
 
 class Converters {
     @TypeConverter
-    fun fromSource(source: Source): String {
-        return source.name
+    fun fromSource(source: Source): String? {
+        return source?.name
 
     }
 

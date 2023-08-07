@@ -1,4 +1,4 @@
-package com.example.arplusplu_task.ui.fragments
+package com.example.arplusplu_task.ui.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,10 +11,9 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.arplusplu_task.R
-import com.example.arplusplu_task.databinding.FragmentBreakingNewsBinding
 import com.example.arplusplu_task.databinding.FragmentSavedNewsBinding
-import com.example.arplusplu_task.ui.MainActivity
-import com.example.arplusplu_task.ui.NewsViewModel
+import com.example.arplusplu_task.ui.ui.MainActivity
+import com.example.arplusplu_task.ui.ui.NewsViewModel
 import com.example.arplusplu_task.ui.adapter.NewsAdapter
 import com.google.android.material.snackbar.Snackbar
 

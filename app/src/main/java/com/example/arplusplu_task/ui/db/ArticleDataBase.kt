@@ -9,7 +9,8 @@ import com.example.arplusplu_task.ui.models.Article
 
 @Database(
     entities = [Article::class],
-    version = 1
+    version = 2,
+     exportSchema = true
 )
 @TypeConverters(Converters::class)
 abstract class ArticleDataBase : RoomDatabase() {

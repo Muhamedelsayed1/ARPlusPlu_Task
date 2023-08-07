@@ -1,4 +1,4 @@
-package com.example.arplusplu_task.ui
+package com.example.arplusplu_task.ui.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
