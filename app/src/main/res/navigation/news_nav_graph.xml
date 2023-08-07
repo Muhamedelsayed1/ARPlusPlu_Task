@@ -17,7 +17,11 @@
     <fragment
         android:id="@+id/articleNewsFragment"
         android:name="com.example.arplusplu_task.ui.fragments.ArticleNewsFragment"
-        android:label="ArticleNewsFragment" />
+        android:label="ArticleNewsFragment" >
+        <argument
+            android:name="article"
+            app:argType="com.example.arplusplu_task.ui.models.Article" />
+    </fragment>
     <fragment
         android:id="@+id/savedNewsFragment"
         android:name="com.example.arplusplu_task.ui.fragments.SavedNewsFragment"
